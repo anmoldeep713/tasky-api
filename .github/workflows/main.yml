@@ -2,7 +2,7 @@ name: Scheduled API Run
 
 on:
   schedule:
-  - cron: "32 12 * * *"  # Runs every day at 12:00 AM IST
+  - cron: "40 12 * * *"  # Runs every day at 12:00 AM IST
   workflow_dispatch:
 
 jobs:
